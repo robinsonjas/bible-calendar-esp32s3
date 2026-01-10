@@ -1,55 +1,22 @@
-# Prerequisites
-*.d
+﻿# ESP-IDF build outputs
+build/
+managed_components/
 
-# Object files
-*.o
-*.ko
-*.obj
+# ESP-IDF config byproducts
+sdkconfig.old
+
+# Binaries & maps
+*.bin
 *.elf
-
-# Linker output
-*.ilk
 *.map
-*.exp
 
-# Precompiled Headers
-*.gch
-*.pch
+# Local VS Code settings (optional)
+.vscode/
 
-# Libraries
-*.lib
-*.a
-*.la
-*.lo
+# OS junk
+.DS_Store
+Thumbs.db
 
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
-
-# Executables
-*.exe
-*.out
-*.app
-*.i*86
-*.x86_64
-*.hex
-
-# Debug files
-*.dSYM/
-*.su
-*.idb
-*.pdb
-
-# Kernel Module Compile Results
-*.mod*
-*.cmd
-.tmp_versions/
-modules.order
-Module.symvers
-Mkfile.old
-dkms.conf
-
-# debug information files
-*.dwo
+# Secrets / local-only data
+main/secrets.h
+data/verses.json
